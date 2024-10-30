@@ -1,0 +1,60 @@
+.page2 {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.first-part {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7%;
+}
+
+.first-part>h1 {
+    color: #72DB73;
+    font-family: single day, cursive;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.first-part>p {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 55px;
+    color: white;
+}
+
+.second-part {
+    display: flex;
+    padding-top: 1%;
+}
+
+
+/* 
+.next {
+    background-color: #148A08;
+    color: white;
+    text-align: center;
+    height: 6%;
+    width: 10%;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 2%;
+    right: 3%;
+} */
+
+.button {
+    background-color: #148A08;
+    color: white;
+    text-align: center;
+    height: 6%;
+    width: 10%;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 2%;
+    right: 3%;
+}

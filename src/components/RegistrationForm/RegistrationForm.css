@@ -1,0 +1,93 @@
+.page1 {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.introImage {
+    width: 48vw;
+    height: 100vh;
+}
+
+.imageText {
+    color: white;
+    position: absolute;
+    left: 3vw;
+    bottom: 3.5vh;
+    font-size: 50px;
+}
+
+.RegistrationPage {
+    display: flex;
+    flex-direction: column;
+    width: 36vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    margin: auto auto;
+}
+
+.upper-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper-part>h1 {
+    color: #72DB73;
+    font-family: single day, cursive;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.upper-part>p {
+    font-size: 20px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 15px;
+}
+
+input {
+    width: full;
+    height: 35px;
+    background-color: #292929;
+    padding: 10px;
+    border: none;
+    font-weight: 400;
+}
+
+.check-box {
+    display: flex;
+    gap: 4px;
+    align-items: center
+}
+
+.term-condition {
+    margin-top: 3px;
+    gap: 4px;
+}
+
+.term-condition>p {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto;
+    color: #7C7C7C;
+}
+
+.signUp {
+    padding: 1.2vh;
+    background-color: #72DB73;
+    border-radius: 28px;
+    border: none;
+    font-weight: 600;
+    font-family: roboto;
+    letter-spacing: 2%;
+    font-size: 1.3rem;
+}

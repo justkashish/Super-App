@@ -1,0 +1,11 @@
+.browse {
+    background-color: #148A08;
+    color: white;
+    text-align: center;
+    height: 6%;
+    width: 10%;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 2%;
+    right: 3%;
+}

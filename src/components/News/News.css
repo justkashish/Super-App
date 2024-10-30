@@ -1,0 +1,46 @@
+.newsBox {
+    background-color: white;
+    width: 30vw;
+    object-fit: cover;
+    border-radius: 25px;
+    position: absolute;
+    right: 6vh;
+    top: 3vh;
+}
+
+.image {
+    width: inherit;
+    border-radius: 25px 25px 0 0;
+    height: 55%;
+}
+
+.text {
+    margin: 5%;
+    height: 42%;
+    width: 28vw;
+    background-color: inherit;
+    /* padding: 4% 5% 5% 5%; */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    color: #272727;
+    overflow-y: hidden;
+}
+
+.title {
+    position: absolute;
+    top: 34%;
+    right: 0%;
+    width: 29.5vw;
+    height: 17%;
+    background: rgba(0, 0, 0, 0.74);
+    padding: 0.8% 1% 0% 1%;
+    font-family: Roboto;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
