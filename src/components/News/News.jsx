@@ -6,7 +6,7 @@ export default function News() {
     const[news,setNews] = useState(null);
 
     useEffect(()=>{
-        fetch("https://api.worldnewsapi.com/search-news?text=earth+quake&language=en&earliest-publish-date=2024-10-01&api-key=d2c358ee52144476b54a0d74354ec1fb")
+        fetch("https://api.worldnewsapi.com/search-news?text=earth+quake&language=en&earliest-publish-date=2024-10-20&api-key=d2c358ee52144476b54a0d74354ec1fb")
         .then((data)=> data.json())
         .then((data)=> setNews(data))
         .catch((error)=>console.log(error));

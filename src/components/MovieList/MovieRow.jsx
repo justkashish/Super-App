@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react"
 
-export default function MovieRow({genre}) {
+export default function MovieRow11({genre}) {
 
 const[movies,setMovies] = useState([]);
 
